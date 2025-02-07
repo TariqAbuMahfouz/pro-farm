@@ -39,7 +39,7 @@ document.addEventListener("DOMContentLoaded", () => {
       cartItem.classList.add("cart-item");
       cartItem.innerHTML = `
         <span>${item.name} × ${item.quantity}</span>
-        <span>${(item.price * item.quantity).toFixed(2)} $</span>
+        <span>${(item.price * item.quantity).toFixed(2)} د.أ </span>
         <button class="remove-item" data-key="${key}">❌</button>
       `;
       cartItemsContainer.appendChild(cartItem);
