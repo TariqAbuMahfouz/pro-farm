@@ -83,6 +83,23 @@ nav .nav-link:hover {
   transform: translateY(2px);
 }
 
+
+
+.complete-cart{
+  background: #32CD32;
+  color: white;
+  padding: 10px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+.complete-cart:hover {
+  background: #006400;
+}
+
 /* Heor styling */
 .hero {
   background-color: #f8f7fc;
@@ -188,6 +205,17 @@ section.features .features-section {
   border-radius: 1rem;
   margin: 1rem 1rem;
 }
+
+
+.quality h3 {
+  color: black;
+}
+
+.fruit h3 {
+  color: #121212;
+}
+
+
 
 .features-section .qualities .quality:hover {
   border: 2px solid #32CD32;
@@ -326,7 +354,7 @@ footer {
   cursor: pointer;
   font-size: 1.5rem;
   margin-left: 1rem;
-  color: #4e547e;
+  color: #5E35B1;
   transition: color 0.3s ease;
 }
 
@@ -344,7 +372,7 @@ body.dark-theme {
 }
 
 body.dark-theme nav {
-  background-color: #1e1e1e;
+  background-color: #252525 ;
 }
 
 body.dark-theme .nav-link {
@@ -362,6 +390,10 @@ body.dark-theme .features {
 
 body.dark-theme .newest-fruit-1 {
   background-color: #1e1e1e;
+}
+
+body.dark-theme .fruit h3 {
+  color: #ffffff;
 }
 
 body.dark-theme footer {
@@ -389,6 +421,37 @@ body.dark-theme .close-cart {
 body.dark-theme .close-cart:hover {
   background-color: #006400;
 }
+
+
+body.dark-theme .qualities .quality {
+  background-color: #252525;
+}
+
+body.dark-theme .quality  p {
+ color: #ffffff;
+}
+
+body.dark-theme .quality h3 {
+  color: #ffffff;
+}
+
+ 
+body.dark-theme .theme-toggle , .cart-icon {
+    color: #e5e100;
+}
+body.dark-theme .theme-toggle:hover {
+  color: #32CD32;
+}
+
+
+body.dark-theme .cart-footer h3 {
+  color: #ffffff;
+}
+
+body.dark-theme .cart-icon  {
+  color: #ffffff;
+}
+
 
 
 
@@ -482,23 +545,6 @@ body.dark-theme .close-cart:hover {
   background: #006400;
 }
 
-
-
-.complete-cart{
-  background: #32CD32;
-  color: white;
-  padding: 10px;
-  border: none;
-  cursor: pointer;
-  border-radius: 5px;
-  font-size: 1rem;
-  transition: 0.3s;
-}
-
-.complete-cart:hover {
-  background: #006400;
-}
-
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -516,11 +562,6 @@ body.dark-theme .close-cart:hover {
     transform: translateY(0);
   }
 }
-
-
-
-
-
 
 
 /* Responsive Design */
